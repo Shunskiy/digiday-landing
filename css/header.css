@@ -1,0 +1,252 @@
+.header {
+  background: #1c232d;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+
+  background-color: #1a232e;
+}
+
+.header__logo {
+  width: 203px;
+  height: 40px;
+  margin-bottom: 25px;
+}
+
+.header__title {
+  width: 623px;
+
+  font-family: "Proxima Nova Bl";
+  color: rgba(255, 255, 255, 1);
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.header__subscription-title {
+  width: 623px;
+  margin-bottom: 25px;
+
+  font-family: "Lora", serif;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+}
+
+.header__switch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 335px;
+  height: 35px;
+  margin-bottom: 30px;
+  padding: 5px;
+
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 2px;
+}
+
+.header__switch-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 25px;
+
+  color: #ffffff;
+  font-family: "Roboto", "sans-serif";
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  background-color: transparent;
+  opacity: 0.5;
+
+  transition: background-color ease 0.3s;
+}
+
+.header__switch:focus-within {
+  outline: 1px solid #ffffff;
+}
+
+.header__switch > input[type="radio"]:checked + label {
+  background: #555e6d;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+}
+
+.header__subscription-list {
+  display: flex;
+  align-items: center;
+  margin: 0 223px 22px 223px;
+}
+
+.header__subscription-item {
+  margin-left: 10px;
+}
+
+.header__subscription-item:first-child {
+  margin-left: 0;
+}
+
+.subscription-card {
+  width: 251px;
+  padding: 45px 35px 35px 35px;
+
+  background-color: #ffffff;
+}
+
+.subscription-card__title {
+  color: #1a232e;
+  font-family: "Proxima Nova Bl", "sans-serif";
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: -0.01em;
+}
+
+.subscription-card__price {
+  margin-bottom: 20px;
+
+  color: #1a232e;
+  font-family: "Proxima Nova Lt";
+  font-size: 24px;
+}
+
+.subscription-card__discription {
+  font-family: "Lora", serif;
+  font-size: 14px;
+}
+
+.subscription-card__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 181px;
+  height: 53px;
+  margin-top: 40px;
+
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: #1a232e;
+  border-radius: 2px;
+  box-shadow: 0px 5px 15px rgba(10, 14, 18, 0.05);
+}
+
+.subscription-card--active {
+  transform: scale(1.01);
+}
+
+.subscription-card--active > .subscription-card__button {
+  background-color: #ff0000;
+}
+
+.header__subscription-list:hover .subscription-card--active {
+  transform: scale(1);
+}
+
+.header__subscription-list:hover
+  .subscription-card--active
+  > .subscription-card__button {
+  background-color: #1a232e;
+}
+
+.subscription-card:hover {
+  transform: scale(1.01);
+}
+
+.subscription-card:hover > .subscription-card__button {
+  background-color: #ff0000;
+}
+
+.header__subscription-list:hover .subscription-card--active:hover {
+  transform: scale(1.01);
+}
+
+.header__subscription-list:hover
+  .subscription-card--active:hover
+  > .subscription-card__button {
+  background-color: #ff0000;
+}
+
+.header__options {
+  display: flex;
+  justify-content: space-between;
+  width: 574px;
+  margin-bottom: 41px;
+}
+
+.header__options-item {
+  color: #ffffff;
+  font-family: "Proxima Nova Rg", "sans-serif";
+  font-size: 13px;
+  text-align: center;
+}
+
+.header__options-link {
+  color: #ffffff;
+}
+
+.benefits {
+  padding: 50px 0;
+
+  box-shadow: 20px -10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.benefits__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.benefits__title {
+  margin-bottom: 36.4px;
+
+  color: #ffffff;
+  font-family: "Proxima Nova Th", "serif-sans";
+  font-size: 24px;
+  line-height: 48px;
+  letter-spacing: -0.01em;
+}
+
+.benefits__link {
+  color: #ffffff;
+}
+
+.benefits__items-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.benefits__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: #ffffff;
+  font-family: "Proxima Nova Rg", "serif-sans";
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+}
+
+.benefits__icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 15px;
+}
