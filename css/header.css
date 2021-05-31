@@ -12,7 +12,7 @@
 
 .header__logo {
   width: 203px;
-  height: 40px;
+  height: auto;
   margin-bottom: 25px;
 }
 
@@ -234,6 +234,6 @@
 
 .benefits__icon {
   width: 40px;
-  height: 40px;
+  height: auto;
   margin-bottom: 15px;
 }
