@@ -71,7 +71,7 @@
   outline: 1px solid #ffffff;
 }
 
-.header__switch > input[type="radio"]:checked + label {
+.header__switch-radio:checked + label {
   background: #555e6d;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
   opacity: 1;
