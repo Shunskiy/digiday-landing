@@ -1,0 +1,165 @@
+@media (max-width: 1210px) {
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .header__subscription-list {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .header__subscription-item {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .benefits__items-list {
+    flex-wrap: wrap;
+  }
+
+  .benefits__item {
+    margin-bottom: 30px;
+    flex: 1 0 calc(33.3% - 20px);
+  }
+
+  .benefits__item:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+  }
+
+  .features__items-list {
+    justify-content: center;
+  }
+
+  .features__item {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .features__item:nth-child(3n) {
+    margin-right: 5px;
+  }
+
+  .members__item {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 35px;
+    flex: 1 0 calc(33.3% - 20px);
+  }
+
+  .members__item:nth-child(7n) {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 860px) {
+  .features__items-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features__item {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .features__item:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 616px) {
+  .container {
+    padding: 20px 10px 10px 10px;
+  }
+
+  .title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .header__logo {
+    width: 150px;
+  }
+
+  .header__title {
+    width: 100%;
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .header__subscription-title {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .header__options {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .header__options-item {
+    margin-bottom: 15px;
+  }
+
+  .benefits {
+    padding: 20px 0;
+  }
+
+  .benefits__title {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .benefits__item {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .features__item {
+    width: 100%;
+  }
+
+  .faq {
+    padding: 20px 0;
+  }
+
+  .faq__tab-label {
+    font-size: 13px;
+    line-height: 14px;
+  }
+
+  .faq__tab-text {
+    font-size: 13px;
+    line-height: 14px;
+  }
+
+  .members {
+    padding: 20px 0;
+  }
+
+  .members__items-list {
+    padding: 0;
+  }
+
+  .members__item {
+    flex: 1 0 50%;
+  }
+}
+
+@media (max-width: 376px) {
+  .header__switch {
+    width: 95%;
+  }
+}
+
+@media (max-width: 341px) {
+  .benefits__item {
+    font-size: 10px;
+  }
+}
