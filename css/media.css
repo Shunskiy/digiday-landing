@@ -33,7 +33,12 @@
   }
 
   .features__item {
-    margin-right: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .features__item:nth-child(3n) {
+    margin-right: 5px;
   }
 
   .members__item {
@@ -46,6 +51,22 @@
 
   .members__item:nth-child(7n) {
     margin-left: 0;
+  }
+}
+
+@media (max-width: 860px) {
+  .features__items-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features__item {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .features__item:nth-child(3n) {
+    margin-right: 0;
   }
 }
 
@@ -100,6 +121,10 @@
     line-height: 12px;
   }
 
+  .features__item {
+    width: 100%;
+  }
+
   .faq {
     padding: 20px 0;
   }
@@ -123,18 +148,18 @@
   }
 
   .members__item {
-      flex: 1 0 50%;
+    flex: 1 0 50%;
   }
 }
 
 @media (max-width: 376px) {
-    .header__switch {
-        width: 95%;
-    }
+  .header__switch {
+    width: 95%;
+  }
 }
 
 @media (max-width: 341px) {
-    .benefits__item {
-        font-size: 10px;
-    }
+  .benefits__item {
+    font-size: 10px;
+  }
 }
