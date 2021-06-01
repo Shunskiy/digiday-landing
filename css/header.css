@@ -109,7 +109,7 @@
 .subscription-card__price {
   margin-bottom: 20px;
   color: #1a232e;
-  font-family: "Proxima Nova Bl", "Helvetica", sans-serif;
+  font-family: "Proxima Nova Lt", "Helvetica", sans-serif;
   font-size: 24px;
 }
 
@@ -181,7 +181,7 @@
 
 .header__options-item {
   color: #ffffff;
-  font-family: "Proxima Nova Bl", "Helvetica", sans-serif;
+  font-family: "Proxima Nova Rg", "Helvetica", sans-serif;
   font-size: 13px;
   text-align: center;
 }
@@ -204,7 +204,7 @@
 .benefits__title {
   margin-bottom: 36.4px;
   color: #ffffff;
-  font-family: "Proxima Nova Bl", "Helvetica", sans-serif;
+  font-family: "Proxima Nova Th", "Helvetica", sans-serif;
   font-size: 24px;
   line-height: 48px;
   letter-spacing: -0.01em;
@@ -216,7 +216,7 @@
 
 .benefits__items-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
 }
 
@@ -225,7 +225,7 @@
   flex-direction: column;
   align-items: center;
   color: #ffffff;
-  font-family: "Proxima Nova Bl", "Helvetica", sans-serif;
+  font-family: "Proxima Nova Rg", "Helvetica", sans-serif;
   font-size: 18px;
   line-height: 18px;
   letter-spacing: 0.01em;
@@ -236,4 +236,5 @@
   width: 40px;
   height: auto;
   margin-bottom: 15px;
+  fill: #ffffff;
 }
